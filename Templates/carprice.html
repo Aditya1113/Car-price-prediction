@@ -30,7 +30,8 @@
 <h1><center>Car Price Predcition</center></h1>
 
 <div class='container'>
-
+<div class="row g-0">
+    <div class="col-m-md-5">
     <form method='post' action='/carprediction'>
      {% csrf_token %}
   <div class="row mb-2">
@@ -104,8 +105,12 @@
   <button type="submit" class="btn btn-primary">Predict</button>
 </form>
 
-<img src="https://source.unsplash.com/500x400/?car">
-<!--<img src="{% static '/images/Tutorials.png' %}" class="card-img-top" style="border-radius: 3%;"alt="...">-->
+
+<!--<img src="{% static '/img/Tutorials.png' %}" class="card-img-top" style="border-radius: 3%;"alt="...">-->
+
+</div>
+
+</div>
 </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
